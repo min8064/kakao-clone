@@ -23,6 +23,15 @@
   position: relative;
 }
 
+@keyframes badgeTurn {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(1turn);
+  }
+}
+
 .nav .nav__badge {
   position: absolute;
   top: -7px;
@@ -36,6 +45,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 9px;
+  animation: badgeTurn 1s linear infinite;
+  animation-delay: 1.5s;
 }
 
 @keyframes showNavBar {
