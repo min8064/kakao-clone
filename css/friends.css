@@ -11,3 +11,13 @@
   opacity: 0.6;
   margin-bottom: 12px;
 }
+
+.friends__list li:nth-child(2) {
+  padding: 20px 0px;
+}
+
+.friends__list li:nth-child(3),
+.friends__list li:nth-child(4) {
+  padding: 20px 0px;
+  border-top: 1px solid #f7f7f7;
+}

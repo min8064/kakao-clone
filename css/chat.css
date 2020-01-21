@@ -22,7 +22,7 @@
 .chats__body {
   background-image: url("../images/chatBg.png");
   /* background-color: #f7f7f7; */
-  min-height: 1000vh;
+  min-height: 150vh;
 }
 
 .chat__write-container {
@@ -228,4 +228,23 @@
 
 .sent-message {
   animation: sentAnimation 0.5s ease-out forwards;
+}
+
+@keyframes movingChatIcon {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: rotate(-7deg) scale(1.2);
+  }
+  75% {
+    transform: rotate(7deg) scale(1.2);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.chat__icon-left i {
+  animation: movingChatIcon 1s linear infinite;
 }

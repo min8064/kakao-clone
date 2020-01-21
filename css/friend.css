@@ -4,6 +4,13 @@
   align-items: center;
 }
 
+.friend__chat {
+  padding: 0px;
+  padding-top: 20px;
+  border-top: 1px solid #f7f7f7;
+  margin-bottom: 15px;
+}
+
 .friend .friend__avatar {
   width: 50px;
   height: 50px;
@@ -26,6 +33,75 @@
 
 .friend .friend__avatar {
   margin-right: 15px;
+}
+
+.friend__mabo {
+  margin-bottom: 30px;
+}
+
+.friend__img {
+  position: relative;
+}
+
+.friend__img img,
+.friend__imgs .img {
+  border-radius: 30%;
+}
+
+.friend__img img {
+  width: 35px;
+  height: 35px;
+  margin-right: 40px;
+}
+
+.friend__imgs .img {
+  width: 25px;
+  height: 25px;
+}
+
+.friend__img .img_muzi {
+  position: absolute;
+  top: 17px;
+  left: 17px;
+}
+
+.friend__imgs .img:first-child {
+  background: url(../images/avatar.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.friend__imgs .img:nth-child(2) {
+  background: url(../images/apeach.png) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.friend__imgs .img:nth-child(3) {
+  background: url(../images/muzi.png) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.friend__imgs .img:last-child {
+  background: url(../images/ryan.png) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.friend .friend__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.friend .friend__imgs {
+  width: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.friend__imgs .img {
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 .friend__content .friend__name {

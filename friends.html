@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
   </head>
-  <body>
+  <body> 
+    <div class="friends__header-wrapper">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -39,6 +40,7 @@
         </span>
       </div>
     </header>
+    </div>
     <main class="friends">
       <header class="friends__header">
         <div class="friends__friend friend">
@@ -77,17 +79,17 @@
         </div>
       </div>
       <ul class="friends__list">
-        <h5 class="friends__title">Friends 14</h5>
+        <h5 class="friends__title">Friends 3</h5>
         <li class="friends__friend friend">
           <div class="friend__column">
             <img
-              src="images/avatar.jpg"
+              src="images/ryan.png"
               alt=""
               class="friend__avatar"
             />
             <div class="friend__content">
               <span class="friend__name">
-                Lynn
+                Ryan
               </span>
               <span class="friend__status">
                 Hi~!
@@ -103,26 +105,68 @@
             </div>
           </div>
         </li>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img
+              src="images/apeach.png"
+              alt=""
+              class="friend__avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name">
+                Aeach
+              </span>
+              <span class="friend__status">
+                Hi~!
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img
+              src="images/muzi.png"
+              alt=""
+              class="friend__avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name">
+                Muzi
+              </span>
+              <span class="friend__status">
+                Hi~!
+              </span>
+            </div>
+          </div>
+        </li>
       </ul>
+      <div class="showicon">
+        <div class="showicon_img"></div>
+      </div>
     </main>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
+          <span class="nav__text">Friends</span>
           <a href="friends.html" class="nav__list-link">
             <i class="fas fa-user"></i>
           </a>
         </li>
         <li class="nav__list-item">
+          <span class="nav__text">Chat</span>
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="far fa-comment"></i>
           </a>
         </li>
         <li class="nav__list-item">
+          <span class="nav__text">Search</span>
           <a href="find.html" class="nav__list-link">
             <i class="fas fa-search"></i>
           </a>
         </li>
         <li class="nav__list-item">
+          <span class="nav__text">More</span>
           <a href="more.html" class="nav__list-link">
             <i class="fas fa-ellipsis-h"></i>
           </a>

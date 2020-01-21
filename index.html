@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chats | Kakao Clone</title>
   </head>
-  <body>
+  <body> 
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -44,7 +44,7 @@
     </header>
     <main class="chats">
       <ul class="chats__list">
-        <li class="chats__chat chat">
+        <li class="chats__chat chat friend__chat">
           <a href="chat.html">
             <div class="chats__chat friend friend--lg">
               <div class="friend__column">
@@ -55,7 +55,7 @@
                 />
                 <div class="friend__content">
                   <span class="friend__name">
-                    Lynn
+                    Ryan
                   </span>
                   <span class="friend__bottom-text">
                     Going home!
@@ -70,27 +70,94 @@
             </div>
           </a>
         </li>
+        <li class="chats__chat chat friend__chat friend__mabo">
+          <a href="chat.html">
+            <div class="chats__chat friend friend--lg">
+              <div class="friend__column friend__flex">
+                <div class="friend__img">
+                  <img
+                  src="images/apeach.png"
+                  alt=""
+                  class=""
+                  />
+                  <img
+                  src="images/muzi.png"
+                  alt=""
+                  class="img_muzi"
+                  />
+                </div>
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Apeach,Muzi
+                  </span>
+                  <span class="friend__bottom-text">
+                    How are you?
+                  </span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="chat__timestamp">
+                  March 13
+                </span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="chats__chat chat friend__chat friend__mabo">
+          <a href="chat.html">
+            <div class="chats__chat friend friend--lg">
+              <div class="friend__column friend__flex">
+                <div class="friend__imgs">
+                  <div class="img"></div>
+                  <div class="img"></div>
+                  <div class="img"></div>
+                  <div class="img"></div>
+                </div>
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Apeach,Muzi,Ryan...
+                  </span>
+                  <span class="friend__bottom-text">
+                    I lovd you
+                  </span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="chat__timestamp">
+                  Yesterday
+                </span>
+              </div>
+            </div>
+          </a>
+        </li>
       </ul>
+      <div class="showicon">
+        <div class="showicon_img"></div>
+      </div>
     </main>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
+          <span class="nav__text">Friends</span>
           <a href="friends.html" class="nav__list-link">
             <i class="far fa-user"></i>
           </a>
         </li>
         <li class="nav__list-item">
+          <span class="nav__text">Chat</span>
           <a href="index.html" class="nav__list-link">
             <div class="nav__badge">8</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>
         <li class="nav__list-item">
+          <span class="nav__text">Search</span>
           <a href="find.html" class="nav__list-link">
             <i class="fas fa-search"></i>
           </a>
         </li>
         <li class="nav__list-item">
+          <span class="nav__text">More</span>
           <a href="more.html" class="nav__list-link">
             <i class="fas fa-ellipsis-h"></i>
           </a>

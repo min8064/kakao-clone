@@ -24,4 +24,14 @@
 .header .header__back-btn {
   font-size: 22px;
   margin-right: 20px;
+  animation: movingBackbtn 0.5s linear infinite;
+}
+
+@keyframes movingBackbtn {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateX(-10px);
+  }
 }
